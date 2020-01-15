@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cmdC"
+            android:text="@string/C"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button_bg"/>
+
+        <Button
+            android:id="@+id/cmdMinusPlus"
+            android:text="@string/PlusMinus"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button_bg" />
+
+        <Button
+            android:id="@+id/cmdMod"
+            android:text="@string/mod"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button_bg"/>
+
+        <Button
+            android:id="@+id/cmdDiv"
+            android:text="@string/div"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/orange"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/cmd7"
+            android:text="@string/_7"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/grey"/>
+
+        <Button
+            android:id="@+id/cmd8"
+            android:text="@string/_8"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/grey"/>
+
+        <Button
+            android:id="@+id/cmd9"
+            android:text="@string/_9"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/grey" />
+
+        <Button
+            android:id="@+id/cmdMul"
+            android:text="@string/Mul"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/orange"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cmd4"
+            android:text="@string/_4"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey" />
+
+        <Button
+            android:id="@+id/cmd5"
+            android:text="@string/_5"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey" />
+
+        <Button
+            android:id="@+id/cmd6"
+            android:text="@string/_6"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey" />
+
+        <Button
+            android:id="@+id/cmdSuh"
+            android:text="-"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cmd1"
+            android:text="@string/_1"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey"/>
+
+        <Button
+            android:id="@+id/cmd2"
+            android:text="@string/_2"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey" />
+
+        <Button
+            android:id="@+id/cmd3"
+            android:text="@string/_3"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey"/>
+
+        <Button
+            android:id="@+id/cmdAdd"
+            android:text="@string/plus"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/orange"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cmd0"
+            android:text="@string/_0"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey" />
+
+        <Button
+            android:id="@+id/cmdBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/grey"
+            android:text="@string/_00"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cmdDot"
+            android:text="@string/dot"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grey"/>
+
+        <Button
+            android:id="@+id/cmdEqual"
+            android:text="@string/equal"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/orange"/>
+
+    </LinearLayout>
+</LinearLayout>
